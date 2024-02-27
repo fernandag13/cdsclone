@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>locations cds</title>
+
+  <style> body{
+        margin:0px;
+        margin-top:60px;
+        padding: 0px;
+     
+     }
+     nav{
+        display: flex;
+        position: fixed;
+        top:0;
+        width: 100%;
+        background-color:white;
+        overflow: auto;
+        height: auto;
+      
+     }
+     .left-side{
+        flex:1 1 200px;
+     }
+     .links {
+        display: inline-block;
+        text-align: center;
+        padding: 14px; 
+     }
+     
+     #locations{
+         height: 100%;
+       width: 100%;
+     }
+     
+     
+     * {
+           box-sizing: border-box;
+         }
+         
+         /* Create two equal columns that floats next to each other */
+         .location_col {
+           float: left;
+           width: 50%;
+           
+           
+         }
+         
+         /* Clear floats after the columns */
+         .location_row:after {
+           content: "";
+           display: table;
+           clear: both;
+         }
+         
+         /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+         @media screen and (max-width: 600px) {
+           .location_col {
+             width: 100%;
+           }
+         }
+         h1{
+           text-align: center;
+             font-family: 'Anton' ;
+             line-height: 1.3em;
+             letter-spacing: 0.01em;
+             font-size: 35px;
+         }
+         p{
+             
+             font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+         }
+     
+         #visit{
+         text-align: left;
+         font-weight: bold;
+             font-family: 'Anton';
+     }
+     
+     #barclaysc, #Prospect{
+         
+         font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+         font-weight: bold;
+         line-height: 1.3em;
+             letter-spacing: 0.01em;
+             font-size: 16px;
+     
+     }
+     #yelp, #instagram, #ending{
+         float: right; width:15% ;
+     }
+     
+     #address{
+       position: relative;
+             left: 225px;
+     
+     }
+     
+     #ending{
+         position: relative;
+         left: 750px;
+     
+     }
+     #visit{
+         text-align: left;
+         font-weight: 400;
+             font-family: 'Anton';
+             font-size: 50px;
+             position: relative;
+             left: 225px;
+             line-height: 1.3em;
+             letter-spacing: 0.01em;
+     }
+     
+     #barclaysc, #Prospect{
+         font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+         font-weight: bold;
+         font-size: 26px;
+             position: relative;
+             left: 225px;
+             line-height: 1.3em;
+             letter-spacing: 0.01em;
+     
+     }
+     
+     
+     #bottompart{
+       font-style: 'Neue Haas Grotesk Display Pro', sans-serif ; color: white;
+       background-color:black;
+       
+     }
+    
+
+     #ig,#yp, #hm, #mn, #ln{
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        font-size: 17px;
+      }
+
+      #hm, #mn, #ln{
+        position: relative;
+        top: -30px;
+        color: black;
+      }
+      #logo{
+        size: 20px;
+      }
+
+      
+#local{
+    text-align: left; width: 25%;
+}
+    </style>  
+ </head>
+
+ <body>
+
+
+    <nav>
+        <div id="leftnav" class="left-side">
+        <a id="logo" class="links selected" href="home.html"><img src="images/logo.png" width="225px" height="75px"></a>
+        <a id="hm" class="links" href="home.html"> Home</a>
+        <a id="mn" class="links" href="menu.html"> Menu</a>
+        <a id="ln"class="links" href="locations.html"> Locations</a>
+    
+        </div>
+        <div id="rightnav"class="right-side">
+          <a id ="yp"class="links" href="https://www.yelp.com/biz/cruz-del-sur-brooklyn"><img src="images/topyelp.png" width="30px"></a>
+        <a id="ig"class="links" href="https://www.instagram.com/cruzdelsurnyc/"> <img src="images/topinsta.png" width="30px"></a>
+        
+        </div>
+        </nav>
+
+        <img id="locations" src="images/locations.png" alt="locations" >
+
+
+<div class="location_row">
+<div class="location_col">
+        <h1>PROSPECT HEIGHTS</h1>
+<p id="local">622 WASHINGTON AVE<br>
+    Brooklyn, NY 11238</p>
+      
+
+<p id="local">(347) 365-1618<br>
+info@cruzdelsur.nyc</p>
+
+<p id="local">Monday - Closed<br>
+Tuesday to Friday  12 PM – 10 PM<br>
+Saturday 11 AM - 10 PM<br>
+Sunday 11 AM - 9 PM</p>
+</div>
+
+<div class="location_col">
+<h1>BARCLAYS CENTER</h1>
+<p id="local">446A DEAN ST<br>
+Brooklyn, NY 11217</p>
+
+<p id="local">(347) 227-7864<br>
+info@cruzdelsur.nyc</p>
+
+
+<p id="local">Monday to Friday  12 PM – 10 PM<br>
+Saturday 11 AM - 10 PM<br>
+Sunday 11 AM - 9 PM</p>
+
+</div>
+</div>
+
+
+<div id="bottompart">
+    <h1 id="visit">come visit!</h1>
+  <div class="topnav">
+    <a id="instagram"class="active" href="https://www.instagram.com/cruzdelsurnyc/" ><img src="./images/instalogo.png" width="30" alt="insta logo"></a>
+      <a id="yelp"class="active" href="https://www.yelp.com/biz/cruz-del-sur-brooklyn" ><img src="./images/yelplogo.png" width="30" alt="yelp logo"></a>
+      
+    </div>
+  
+      <p id="Prospect">Prospect Heights Location </p>
+  <p id="address">622 Washington Ave , Brooklyn, NY 11238<br>
+  (347) 365-1618
+  </p>
+  
+  <p id="barclaysc">Barclays Center Location</p>
+  <p id="address">446A Dean St , Brooklyn, NY 11217<br>
+  (347) 227-7864
+  </p>
+  
+  <p id="ending">Come and enjoy a small piece of Guadalajara without leaving NYC</p>
+      <p id="address">Tuesday to Friday</p>
+      <p id="address">12pm - 10pm</p>
+  
+      <p id="address"> Saturday - Sunday   </p>
+      <p id="address">11am - 10pm</p>
+  
+    </div>
+    
+ </body>
+    </html>

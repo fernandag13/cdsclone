@@ -1,0 +1,508 @@
+
+home
+      #gdl{
+        text-align: center ;
+        font-weight: bold;
+        font-family: 'Anton' ;
+        font-size: 70px;
+        letter-spacing: 0.01em;
+        line-height: 1.3em;
+        font-weight: 400;
+
+      
+      }
+      #eat{
+        text-align: center ;
+        font-weight: bold;
+        font-family: 'Anton' ;
+        font-size: 85px;
+        letter-spacing: 0.01em;
+        line-height: 1.3em;
+        font-weight: 400;
+      }
+      p{
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        font-size: 18px;
+        line-height: 1.5em;
+        letter-spacing: 0.02em;
+        font-weight: 400;
+      }
+
+      #tp,#gdlp, #balance{
+        
+        text-align: center;
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        font-size: 19px;
+        line-height: 1.5em;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+      }
+
+      #headings{
+        text-align: center;
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 0.02em;
+      }
+
+      #ig,#yp, #hm, #mn, #ln{
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        font-size: 17px;
+      }
+
+      #hm, #mn, #ln{
+        position: relative;
+        top: -30px;
+        color: black;
+      }
+
+      #logo{
+        size: 20px;
+      }
+
+
+
+    .column {
+    float: left;
+    width: 33.33%;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+#torta, #table , #kitchen{
+
+  height: 100%;
+  width: 100%;
+  background-image: url("images/tortaahogada.jpg");
+}
+
+body{
+   margin:0px;
+   margin-top:60px;
+   padding: 0px;
+
+}
+nav{
+   display: flex;
+   position: fixed;
+   top:0;
+   width: 100%;
+   background-color:white;
+   overflow: auto;
+   height: auto;
+ 
+}
+.left-side{
+   flex:1 1 200px;
+}
+.links {
+   display: inline-block;
+   text-align: center;
+   padding: 14px; 
+}
+
+#visit{
+    text-align: left;
+    font-weight: 400;
+        font-family: 'Anton';
+        font-size: 50px;
+        position: relative;
+        left: 225px;
+        line-height: 1.3em;
+        letter-spacing: 0.01em;
+}
+
+#chef{
+  font-family: 'Anton';
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.3em;
+  font-size: 35px;
+  position: relative;
+  left: 225px;
+}
+#cheftitle{
+  font-weight:bold;
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+  letter-spacing:0.02em ;
+  line-height: 1.5em;
+  font-size: 19px;
+  position: relative;
+  left: 225px;
+
+  
+}
+#morehugo, #hugo{
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+  position: relative;
+  left: 225px;
+}
+
+#barclaysc, #Prospect{
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+        position: relative;
+        left: 225px;
+
+}
+#yelp, #instagram, #ending{
+    float: right; width:15% ;
+    size: 20px;
+}
+
+#bottompart{
+  font-style: 'Neue Haas Grotesk Display Pro', sans-serif ; color: white;
+  background-color:black;
+  
+}
+
+#mercado{
+  height: 650px;
+  width: 1000px;
+  position:relative;
+  left:225px;
+}
+     
+#tparagraph{
+  height: 200px;
+  width: 300px;
+  position: relative;
+  left: 84px;
+}
+  #taparagraph{
+    height: 200px;
+  width: 300px;
+  position: relative;
+  left: 84px;
+
+  }
+ #cparagraph{height: 200px;
+  width: 300px;
+  position: relative;
+  left: 84px;
+
+}
+
+#yp, #ig{
+  height: 50px;
+  width: 50px;
+}
+
+#address{
+  position: relative;
+        left: 225px;
+
+}
+
+menu 
+body{
+    margin:0px;
+    margin-top:60px;
+    padding: 0px;
+ 
+ }
+ nav{
+    display: flex;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color:white;
+    overflow: auto;
+    height: auto;
+  
+ }
+ .left-side{
+    flex:1 1 200px;
+ }
+ .links {
+    display: inline-block;
+    text-align: center;
+    padding: 14px; 
+ }
+ #visit{
+     text-align: left;
+     font-weight: bold;
+         font-family: 'Anton';
+ }
+ h1, #happyhour{
+     text-align: center;
+     font-family: 'Anton' ;
+          
+ }
+ 
+ #happyhour{
+     font-size: 35px;
+     position: relative;
+     top: 20px;
+ }
+ 
+ h1{
+     font-size: 50px;
+     font-weight: 400;
+ }
+ 
+ * {
+       box-sizing: border-box;
+     }
+     
+     /* Create two equal columns that floats next to each other */
+     .menu_col {
+       float: left;
+       width: 50%;
+       
+       
+     }
+     
+     /* Clear floats after the columns */
+     .menu_row:after {
+       content: "";
+       display: table;
+       clear: both;
+     }
+     
+     /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+     @media screen and (max-width: 600px) {
+       .menu_col {
+         width: 100%;
+       }
+     }
+ 
+     .-menu__item-name{
+         
+         font-weight: 400;
+         font-family: 'Anton' ;
+         font-size: 36px;  
+         position: relative;
+         left: 200px;
+         line-height: 1.3em;
+         letter-spacing: 0.01em;
+     }
+ 
+     .-menu__description, p{
+         font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+         font-size: 18px;
+         position: relative;
+         left: 200px;
+         line-height: 1.3em;
+         letter-spacing: 0.01em;
+ 
+     }
+ 
+     .-menu__item-price{
+         font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+         font-weight: 400;
+         float: right ; width: 10%; 
+         position: relative;
+         top: 20px;
+         line-height: 1.3em;
+         letter-spacing: 0.01em;
+         
+     }
+ 
+     #visit{
+     text-align: left;
+     font-weight: 400;
+         font-family: 'Anton';
+         font-size: 50px;
+         position: relative;
+         left: 225px;
+         line-height: 1.3em;
+         letter-spacing: 0.01em;
+ }
+ #menu{
+     height: 100%;
+   width: 100%;
+   position: relative;
+   top: 50px;
+ }
+ 
+ #tacosq, #brunch, #hh{
+     text-align: center;
+     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+     font-size: 18px;
+ 
+ }
+ 
+ #barclays{
+     font-weight: bold;
+         font-family: 'Anton' ;
+         font-size: 60px;
+         color: navy;
+ }
+ 
+ 
+ 
+ #barclaysc, #Prospect{
+     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+     font-weight: bold;
+ 
+ }
+ 
+ #ig,#yp, #hm, #mn, #ln{
+         font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+         font-size: 17px;
+       }
+ 
+ #hm, #mn, #ln{
+         position: relative;
+         top: -30px;
+         color: black;
+       }
+ 
+ #bottompart{
+   font-style: 'Neue Haas Grotesk Display Pro', sans-serif ; color: white;
+   background-color:black;
+   
+ }
+ 
+  #instagram{
+     float: right; width: 350px;
+ }
+ #yelp{
+     float: right; width: 200px;
+ }
+ 
+ #address{
+   position: relative;
+         left: 225px;
+ 
+ }
+ 
+ #ending{
+     position: relative;
+     left: 750px;
+ 
+ }
+
+ body{
+    margin:0px;
+    margin-top:60px;
+    padding: 0px;
+ 
+ }
+ nav{
+    display: flex;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color:white;
+    overflow: auto;
+    height: auto;
+  
+ }
+ .left-side{
+    flex:1 1 200px;
+ }
+ .links {
+    display: inline-block;
+    text-align: center;
+    padding: 14px; 
+ }
+ 
+ #locations{
+     height: 100%;
+   width: 100%;
+ }
+ 
+ 
+ * {
+       box-sizing: border-box;
+     }
+     
+     /* Create two equal columns that floats next to each other */
+     .location_col {
+       float: left;
+       width: 50%;
+       
+       
+     }
+     
+     /* Clear floats after the columns */
+     .location_row:after {
+       content: "";
+       display: table;
+       clear: both;
+     }
+     
+     /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+     @media screen and (max-width: 600px) {
+       .location_col {
+         width: 100%;
+       }
+     }
+     h1{
+       text-align: center;
+         font-family: 'Anton' ;
+     }
+     p{
+         
+         font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+     }
+ 
+     #visit{
+     text-align: left;
+     font-weight: bold;
+         font-family: 'Anton';
+ }
+ 
+ #barclaysc, #Prospect{
+     
+     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+     font-weight: bold;
+ 
+ }
+ #yelp, #instagram, #ending{
+     float: right; width:15% ;
+ }
+ 
+ #address{
+   position: relative;
+         left: 225px;
+ 
+ }
+ 
+ #ending{
+     position: relative;
+     left: 750px;
+ 
+ }
+ #visit{
+     text-align: left;
+     font-weight: 400;
+         font-family: 'Anton';
+         font-size: 50px;
+         position: relative;
+         left: 225px;
+         line-height: 1.3em;
+         letter-spacing: 0.01em;
+ }
+ 
+ #barclaysc, #Prospect{
+     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+     font-weight: bold;
+     font-size: 20px;
+         position: relative;
+         left: 225px;
+ 
+ }
+ 
+ 
+ #bottompart{
+   font-style: 'Neue Haas Grotesk Display Pro', sans-serif ; color: white;
+   background-color:black;
+   
+ }
+ 
+ #local{
+     text-align: center;
+ }

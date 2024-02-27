@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruz del Sur menu</title>
+
+    <style>
+        body{
+   margin:0px;
+   margin-top:60px;
+   padding: 0px;
+
+}
+nav{
+   display: flex;
+   position: fixed;
+   top:0;
+   width: 100%;
+   background-color:white;
+   overflow: auto;
+   height: auto;
+ 
+}
+.left-side{
+   flex:1 1 200px;
+}
+.links {
+   display: inline-block;
+   text-align: center;
+   padding: 14px; 
+}
+#visit{
+    text-align: left;
+    font-weight: bold;
+        font-family: 'Anton';
+}
+h1, #happyhour{
+    text-align: center;
+    font-family: 'Anton' ;
+         
+}
+
+#happyhour{
+    font-size: 35px;
+    position: relative;
+    top: 20px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+* {
+      box-sizing: border-box;
+    }
+    
+    /* Create two equal columns that floats next to each other */
+    .menu_col {
+      float: left;
+      width: 50%;
+      
+      
+    }
+    
+    /* Clear floats after the columns */
+    .menu_row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .menu_col {
+        width: 100%;
+      }
+    }
+
+    .-menu__item-name{
+        
+        font-weight: 400;
+        font-family: 'Anton' ;
+        font-size: 36px;  
+        position: relative;
+        left: 200px;
+        line-height: 1.3em;
+        letter-spacing: 0.01em;
+    }
+
+    .-menu__description, p{
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        font-size: 18px;
+        position: relative;
+        left: 200px;
+        line-height: 1.3em;
+        letter-spacing: 0.01em;
+
+    }
+
+    .-menu__item-price{
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        font-weight: 400;
+        float: right ; width: 10%; 
+        position: relative;
+        top: 20px;
+        line-height: 1.3em;
+        letter-spacing: 0.01em;
+        
+    }
+
+    #visit{
+    text-align: left;
+    font-weight: 400;
+        font-family: 'Anton';
+        font-size: 50px;
+        position: relative;
+        left: 225px;
+        line-height: 1.3em;
+        letter-spacing: 0.01em;
+}
+#menu{
+    height: 100%;
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+
+#tacosq, #brunch, #hh{
+    text-align: center;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-size: 18px;
+
+}
+
+#barclays{
+    font-weight: bold;
+        font-family: 'Anton' ;
+        font-size: 60px;
+        color: navy;
+}
+
+
+
+#barclaysc, #Prospect{
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: bold;
+
+}
+
+#ig,#yp, #hm, #mn, #ln{
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        font-size: 17px;
+      }
+
+#hm, #mn, #ln{
+        position: relative;
+        top: -30px;
+        color: black;
+      }
+
+#bottompart{
+  font-style: 'Neue Haas Grotesk Display Pro', sans-serif ; color: white;
+  background-color:black;
+  
+}
+
+ #instagram{
+    float: right; width: 350px;
+}
+#yelp{
+    float: right; width: 200px;
+}
+
+#address{
+  position: relative;
+        left: 225px;
+
+}
+
+#ending{
+    position: relative;
+    left: 750px;
+
+}
+#logo{
+        size: 20px;
+      }
+
+      #yp, #ig{
+  height: 50px;
+  width: 50px;
+}
+    </style>
+</head>
+
+<body>
+    
+    <nav>
+        <div id="leftnav" class="left-side">
+            <a id="logo" class="links selected" href="home.html"><img src="images/logo.png" width="225px" height="75px"></a>
+            <a id="hm" class="links" href="home.html"> Home</a>
+            <a id="mn" class="links" href="menu.html"> Menu</a>
+            <a id="ln"class="links" href="locations.html"> Locations</a>
+        
+            </div>
+            <div id="rightnav"class="right-side">
+              <a id ="yp"class="links" href="https://www.yelp.com/biz/cruz-del-sur-brooklyn"><img src="images/topyelp.png" width="30px"></a>
+            <a id="ig"class="links" href="https://www.instagram.com/cruzdelsurnyc/"> <img src="images/topinsta.png" width="30px"></a>
+            
+            </div>
+        </nav>
+       
+
+      
+  
+<div>
+  <img id="menu" src="images/menu.png" alt="Menu">
+</div>
+
+
+    <blockquote id="happyhour">Happy Hour every weekday from 2:00 PM to 6:00 PM</blockquote>
+    <h1>APPETIZERS AND SIDES</h1>
+        <div class="menu_row">
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Tuna Tostadas
+                    </span>
+                    <span class="-menu__item-price">$15</span>
+                </h4>
+                <p class="-menu__description">Raw tuna slices, avocado aguachile negro</p>
+            </div>
+            <div class="menu_row">
+                <div class="-menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Guacamole
+                        </span>
+                        <span class="-menu__item-price">$16</span>
+                    </h4>
+                    <p class="-menu__description">Avocado, tomato, onion, tostadas, chiles serrano, 
+                        <br>sea salt</p>
+                </div>
+        </div>
+        <div class="menu_row">
+            <div class="menu_col"> 
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Requesón (v)
+                    </span>
+                    <span class="-menu__item-price">$11</span>
+                </h4>
+                <p class="-menu__description">Mexican fresh cheese similar to ricotta, corn, chili oil 
+                    <br>and tostadas</p>
+            </div>
+            <div class="-menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Jicama Salad (Ve)
+                    </span>
+                    <span class="-menu__item-price">$16</span>
+                </h4>
+                <p class="-menu__description">Pineapple, jicama, pumpkin seeds, cucumber, 
+                    <br>orange, gem lettuce, serrano and powdered chili</p>
+            </div>
+        </div>
+        <div class="menu_row">
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Plantanitos Fritos
+                    </span>
+                    <span class="-menu__item-price">$9</span>
+                </h4>
+                <p class="-menu__description">Fried plantains with cheese and cream</p>
+            </div>
+            <div class="menu_col">
+
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Consome de birria
+                        </span>
+                        <span class="-menu__item-price">$7</span>
+                    </h4>
+                    <p class="-menu__description">Goat & dry chiles broth to bring you back to life</p>
+                </div>
+            </div>
+            <div class="menu_row">
+                <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Frijoles de la Olla (Ve)
+                    </span>
+                    <span class="-menu__item-price">$5</span>
+                </h4>
+                <p class="-menu__description">Slowly cooked beans with spices, onion and <br>garlic</p>
+            </div>
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Salsas Tasting (Ve)
+                    </span>
+                    <span class="-menu__item-price">$11</span>
+                </h4>
+                <p class="-menu__description">4 different salsas to try, served with tostadas</p>
+            </div>
+        </div>
+
+       
+
+            
+                <h1>MAINS</h1>
+                <div class="menu_row">
+                    <div class="menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Torta Ahogada
+                        </span>
+                        <span class="-menu__item-price">$17</span>
+                    </h4>
+                    <p class="-menu__description">Birote bread baked on premises with carnitas, <br>dipped in tomato sauce and chile de árbol, a <br>classic to cure anything, including your hangover</p>
+                    </div>
+                    <div class="menu_col">
+                        <h4 class="-menu__item-title">
+                            <span class="-menu__item-name">
+                                Oyster Mushroom Quesadilla
+                            </span>
+                            <span class="-menu__item-price">$8</span>
+                        </h4>
+                        <p class="-menu__description">Hand made tortilla, cheese and charred oyster<br> mushrooms</p>
+                    </div> 
+                </div> 
+                <div class="menu_row">
+                <div class="menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Torta Ahogada (Ve)
+                        </span>
+                        <span class="-menu__item-price">$17</span>
+                    </h4>
+                    <p class="-menu__description">Birote bread baked on premises with grilled <br>oyster mushrooms, dipped in tomato sauce and<br> chile de árbol, a classic to cure anything,<br> including your hangover</p>
+                </div>
+                <div class="menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Chicharron Quesadilla
+                        </span>
+                        <span class="-menu__item-price">$8</span>
+                    </h4>
+                    <p class="-menu__description">Hand made tortilla, spicy chicharron and cheese</p>
+                </div>
+            </div>
+
+            <div class="menu_row">
+                <div class="menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Shrimp Torta Ahogada 
+                        </span>
+                        <span class="-menu__item-price">$19</span>
+                    </h4>
+                    <p class="-menu__description">The classic shrimp torta with a mild creamy <br>chipotle sauce topped with avocado</p>
+                </div>
+                <div class="menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Carne en su jugo
+                        </span>
+                        <span class="-menu__item-price">$21</span>
+                    </h4>
+                    <p class="-menu__description">Traditional beef stew from Guadalajara, chuck <br>steak slowly braised with bone marrow, garnished <br>with beans, onions, bacon and salsa</p>
+                    <div class="menu_col">
+                        <h4 class="-menu__item-title">
+                            <span class="-menu__item-name">
+                                Carnitas platter (for 2)
+                            </span>
+                            <span class="-menu__item-price">$48</span>
+                        </h4>
+                        <p class="-menu__description">Traditionally slow cooked pork, braised for hours <br>for you to enjoy with someone else</p>
+                    </div>
+                </div>
+            </div>
+            <div id="menu_col">
+                    <h1>TACOS</h1>
+                    
+                    <blockquote id="tacosq">All with hand made tortillas</blockquote>
+                    <div class="menu_row">
+                        <div class="menu_col">
+                        <h4 class="-menu__item-title">
+                            <span class="-menu__item-name">
+                                Chicken in Mole Verde 
+                            </span>
+                            <span class="-menu__item-price">$6</span>
+                        </h4>
+                        <p class="-menu__description">Pumpkin seeds and green chile mole</p>
+                    </div>
+                    <div class="menu_col">
+                        <h4 class="-menu__item-title">
+                            <span class="-menu__item-name">
+                                Birria 
+                            </span>
+                            <span class="-menu__item-price">$6.5</span>
+                        </h4>
+                        <p class="-menu__description">Guadalajara style birria made of slow cooked <br> goat and spices</p>
+                    </div>
+                </div>
+
+                <div class="menu_row">
+                    <div class="menu_col">
+                        <h4 class="-menu__item-title">
+                            <span class="-menu__item-name">
+                                Vegan Chorizo 
+                            </span>
+                            <span class="-menu__item-price">$6</span>
+                        </h4>
+                        <p class="-menu__description">Oat chorizo, charred broccoli and avocado salsa</p>
+                    </div>
+                    <div class="menu_col">
+                        <h4 class="-menu__item-title">
+                            <span class="-menu__item-name">
+                                Beef tongue (Lengua)
+                            </span>
+                            <span class="-menu__item-price">$6</span>
+                        </h4>
+                        <p class="-menu__description">Tender, juicy beef tongue served with the <br> traditional tomatillo salsa</p>
+                    </div>
+                </div>
+
+                <div class="menu_row">
+                    <div class="menu_col">
+                        <h4 class="-menu__item-title">
+                            <span class="-menu__item-name">
+                                Carnitas 
+                            </span>
+                            <span class="-menu__item-price">$5</span>
+                        </h4>
+                        <p class="-menu__description">Slowly braised pork with a fresh tomato salsa</p>
+                    </div>
+                    <div class="-menu__item-info">
+                        <h4 class="-menu__item-title">
+                            <span class="-menu__item-name">
+                                Steak
+                            </span>
+                            <span class="-menu__item-price">$6.5</span>
+                        </h4>
+                        <p class="-menu__description">New York strip steak, grilled onions, chile de árbol</p>
+                    </div>
+                </div>
+
+                    <div class="menu_row">
+                    <div class="menu_col">
+                        <h4 class="-menu__item-title">
+                            <span class="-menu__item-name">
+                                Crispy Potato 
+                            </span>
+                            <span class="-menu__item-price">$6.5</span>
+                        </h4>
+                        <p class="-menu__description">The classic to go with a torta or by itself</p>
+                    </div>
+                   <div class="menu_col">
+                        <h4 class="-menu__item-title">
+                            <span class="-menu__item-name">
+                                Shrimp
+                            </span>
+                            <span class="-menu__item-price">$6.5</span>
+                        </h4>
+                        <p class="-menu__description">Shrimp in chipotle sauce</p>
+                    </div>
+           </div> 
+        
+
+      
+        <h1>Brunch</h1>
+        
+        <blockquote id="brunch">Saturday and Sunday 11:00AM to 4:00PM (Non brunch items available all day)</blockquote>
+        <div class="menu_row">
+        <div class="menu_col">
+            <h4 class="-menu__item-title">
+                <span class="-menu__item-name">
+                    Chilaquiles
+                </span>
+                <span class="-menu__item-price">$15</span>
+            </h4>
+            <p class="-menu__description">Tortilla strips sautéed with salsa and onions, <br>topped with an egg (add an extra egg +1 or <br>protein +5.50)./p>
+        </div>
+        <div class="menu_col">
+            <h4 class="-menu__item-title">
+                <span class="-menu__item-name">
+                    Molletes
+                </span>
+                <span class="-menu__item-price">$14</span>
+            </h4>
+            <p class="-menu__description">Open faced sandwich with beans and melted <br>cheese served with pico de gallo salsa and the <br>topping of your choice (add egg +1 or protein <br> +5.50).</p>
+        </div>
+    </div>
+
+    <div class="menu_row">
+        <div class="menu_col">
+            <h4 class="-menu__item-title">
+                <span class="-menu__item-name">
+                    Huevos Rancheros
+                </span>
+                <span class="-menu__item-price">$15</span>
+            </h4>
+            <p class="-menu__description">Sunny side eggs served on top of hand made <br>sautéed tortillas, beans, pico de gallo and <br> broccoli smothered with salsa (add protein <br>+5.50).</p>
+        </div>
+      
+
+
+    </div> 
+    
+    <h1>Dessert</h1>
+    <div class="menu_row">
+    <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Platanitos Fritos
+                    </span>
+                    <span class="-menu__item-price">$9</span>
+                </h4>
+                <p class="-menu__description">Fried plantains with cheese and cream</p>
+            </div>
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Jericalla
+                    </span>
+                    <span class="-menu__item-price">$9</span>
+                </h4>
+                <p class="-menu__description">Mexican custard, a flan-crème brûléesque- <br>estravaganza</p>
+            </div>
+        </div>
+
+        <div class ="menu_row">
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Lime Pie
+                    </span>
+                    <span class="-menu__item-price">$7</span>
+                </h4>
+                <p class="-menu__description">Mexican lime pie with Marie biscuits</p>
+            </div>
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        cajeta with Mezcal
+                    </span>
+                    <span class="-menu__item-price">$8</span>
+                </h4>
+                <p class="-menu__description">Thickened caramel made of sweetened <br>caramelized milk with a hint of mezcal and bread <br>to enjoy it as a spread</p>
+            </div>
+            
+
+        </div> 
+    
+
+
+
+        <h1>TEQUILA Y MEZCAL</h1>
+        
+        <div class="menu_row">
+        <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Tequila Cimarron
+                    </span>
+                    <span class="-menu__item-price">$8</span>
+                </h4>
+            </div>
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Mezcal Vida
+                    </span>
+                    <span class="-menu__item-price">$9</span>
+                </h4>
+            </div>
+        </div>
+        <div class ="menu_row">
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Tequila Milagro
+                    </span>
+                    <span class="-menu__item-price">$10</span>
+                </h4>
+            </div>
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Mezcal Fidencio
+                    </span>
+                    <span class="-menu__item-price">$12</span>
+                </h4>
+            </div>
+        </div>
+
+    <div class="menu_row">
+        <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Tequila 8 Añejo
+                    </span>
+                    <span class="-menu__item-price">$11</span>
+                </h4>
+            </div>
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Mezcal del Maguey
+                    </span>
+                    <span class="-menu__item-price">$16</span>
+                </h4>
+            </div>
+        </div>
+
+        <div class="menu_row">
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Mezcal Pelotón de la Muerte
+                    </span>
+                    <span class="-menu__item-price">$9</span>
+                </h4>
+            </div>
+        </div>
+
+
+            
+    
+        <h1>COCKTAILS AND BEER</h1>
+        <blockquote id="hh">Happy hour! Margaritas and Canned Beer Tuesday-Thursday from 2:00-6:00PM</blockquote>
+        <div class="menu_row">
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Paloma
+                    </span>
+                    <span class="-menu__item-price">$14</span>
+                </h4>
+                <p class="-menu__description">Iconic Tequila cocktail, balances grapefruit and <br>sweet, sour, and salty notes</p>
+                </div>
+               <div class="menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Margarita
+                        </span>
+                        <span class="-menu__item-price">$14</span>
+                    </h4>
+                    <p class="-menu__description">The lime classic</p>
+                </div>
+            </div>
+
+            <div class="menu_row">
+                <div class="menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Cazuela de Tlaquepaque
+                        </span>
+                        <span class="-menu__item-price">$18</span>
+                    </h4>
+                    <p class="-menu__description">Citrus Tequila Cocktail is an ode to the huge <br>Cazuelas Voladoras from Tlaquepaque in the <br>Guadalajara area</p>
+                </div>
+                <div class="menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Horchata Colada
+                        </span>
+                        <span class="-menu__item-price">$14</span>
+                    </h4>
+                    <p class="-menu__description">Rum, horchata, strawberry</p>
+                </div>
+            </div>
+
+
+                <div class="menu_row">
+                <div class="menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Piña Mágica
+                        </span>
+                        <span class="-menu__item-price">$15</span>
+                    </h4>
+                    <p class="-menu__description">Pineapple syrup, ginger, serrano, Mezcal, lime.</p>
+                </div>
+                <div class="-menu__item-info">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Carajillo
+                        </span>
+                        <span class="-menu__item-price">$12</span>
+                    </h4>
+                    <p class="-menu__description">Coffee and Licor 43</p>
+                </div>
+            </div>
+
+                <div class="menu_row">
+                <div class="menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Tonic Mexicano
+                        </span>
+                        <span class="-menu__item-price">$15</span>
+                    </h4>
+                    <p class="-menu__description">Tequila, granadine, lemon, tonic</p>
+                </div>
+                <div class="-menu__item-info">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Tepache
+                        </span>
+                        <span class="-menu__item-price">$8</span>
+                    </h4>
+                    <p class="-menu__description">Super refreshing Mexican fermented drink, made <br>of pineapple and cinnamon</p>
+                </div>
+            </div>
+
+            <div class="menu_row">
+                <div class="menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Jalisco Sour
+                        </span>
+                        <span class="-menu__item-price">$15</span>
+                    </h4>
+                    <p class="-menu__description">Prune syrup, bourbon, lime</p>
+                </div>
+                <div class="menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Michelada
+                        </span>
+                        <span class="-menu__item-price">$10</span>
+                    </h4>
+                    <p class="-menu__description">The quintessential beer cocktail, fresh tomato <br>juice beer, spices and cucumber</p>
+                </div>
+            </div>
+
+
+                <div class="menu_row">
+                <div class="menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Aguacate Loco
+                        </span>
+                        <span class="-menu__item-price">$18</span>
+                    </h4>
+                    <p class="-menu__description">Avocado,cilantro, serrano mezcal margarita</p>
+                </div>
+                <div class="menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Beer
+                        </span>
+                        <span class="-menu__item-price">$8</span>
+                    </h4>
+                    <p class="-menu__description">Pacífico, Victoria, Negra Modelo, Modelo especial</p>
+                </div>
+            </div>
+
+            <div class="menu_row">
+                <div class="menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Mangonada
+                        </span>
+                        <span class="-menu__item-price">$14</span>
+                    </h4>
+                    <p class="-menu__description">Mango Margarita</p>
+                </div>
+                <div class="menu_col">
+                    <h4 class="-menu__item-title">
+                        <span class="-menu__item-name">
+                            Caguama
+                        </span>
+                        <span class="-menu__item-price">$17</span>
+                    </h4>
+                    <p class="-menu__description">32 oz Corina beer, to share among friends, or <br>not!</p>
+                </div>
+            </div>
+
+
+                
+
+
+    
+        <h1>OTHER DRINKS</h1>
+        <div class="menu_row">
+        <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Rose Monte Xanic
+                    </span>
+                    <span class="-menu__item-price">$12</span>
+                </h4>
+                <p class="-menu__description">Mexican wine from Ensenada</p>
+            </div>
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Horchata de Fresa
+                    </span>
+                    <span class="-menu__item-price">$8</span>
+                </h4>
+                <p class="-menu__description">Guadalajara style rice drink with Mexican vanilla <br>and strawberries</p>
+            </div>
+        </div>
+
+        <div class="menu_row">
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        White Wine Monte Xanic
+                    </span>
+                    <span class="-menu__item-price">$12</span>
+                </h4>
+                <p class="-menu__description">Mexican wine from Ensenada</p>
+            </div>
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Cold brew horchata
+                    </span>
+                    <span class="-menu__item-price">$8</span>
+                </h4>
+                <p class="-menu__description">A new take made of horchata and coffee</p>
+            </div>
+        </div>
+
+        <div class="menu_row">
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Red Wine Monte Xanic
+                    </span>
+                    <span class="-menu__item-price">$12</span>
+                </h4>
+                <p class="-menu__description">Mexican wine from Ensenada</p>
+            </div>
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Agua de Horchata
+                    </span>
+                    <span class="-menu__item-price">$8</span>
+                </h4>
+                <p class="-menu__description">Traditional rice drink with Mexican vanilla</p>
+            </div>
+        </div>
+        
+        <div class="menu_row">
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Topo Chico Hard Seltzer
+                    </span>
+                    <span class="-menu__item-price">$12</span>
+                </h4>
+                <p class="-menu__description">Flavors: Tangy Lemon, Tropical Mango, Exotic <br>Pineapple, Strawberry Guava</p>
+            </div>
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Lime and chia lemonade
+                    </span>
+                    <span class="-menu__item-price">$7</span>
+                </h4>
+                <p class="-menu__description">Fresh and Healthy lemonade with chia seeds</p>
+            </div>
+        </div>
+        <div class="menu_row">
+            <div class="menu_col">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Agua de Jamaica
+                    </span>
+                    <span class="-menu__item-price">$6</span>
+                </h4>
+                <p class="-menu__description">Iced hibiscus infusion</p>
+            </div>
+            <div class="-menu__item-info">
+                <h4 class="-menu__item-title">
+                    <span class="-menu__item-name">
+                        Mexican Sodas
+                    </span>
+                    <span class="-menu__item-price">$4</span>
+                </h4>
+                <p class="-menu__description">Mexican Coca Cola, Sidral Mundet, Boing de <br>Mango, Boing de Guayaba, Topo Chico</p>
+            </div>
+        </div>
+           
+    </div>
+    </div>
+
+
+<a id="barclays" class="links" href="https://static1.squarespace.com/static/624771207ddcb32cb3099319/t/652b0bc4849e3909c08acf38/1697319876640/Menu+Barclays.pdf"> Barclays Center Menu</a>
+
+<div id="bottompart">
+    <h1 id="visit">come visit!</h1>
+  <div class="topnav">
+    <a id="instagram"class="active" href="https://www.instagram.com/cruzdelsurnyc/" ><img src="./images/instalogo.png" width="30" alt="insta logo"></a>
+      <a id="yelp"class="active" href="https://www.yelp.com/biz/cruz-del-sur-brooklyn" ><img src="./images/yelplogo.png" width="30" alt="yelp logo"></a>
+      
+    </div>
+  
+      <p id="Prospect">Prospect Heights Location </p>
+  <p id="address">622 Washington Ave , Brooklyn, NY 11238<br>
+  (347) 365-1618
+  </p>
+  
+  <p id="barclaysc">Barclays Center Location</p>
+  <p id="address">446A Dean St , Brooklyn, NY 11217<br>
+  (347) 227-7864
+  </p>
+  
+  <p id="ending">Come and enjoy a small piece of Guadalajara without <br>leaving NYC</p>
+      <p id="address">Tuesday to Friday</p>
+      <p id="address">12pm - 10pm</p>
+  
+      <p id="address"> Saturday - Sunday   </p>
+      <p id="address">11am - 10pm</p>
+  
+    </div> 
+    
+
+
+</body>
+</html>
